@@ -1,0 +1,102 @@
+body, html {
+		height: 100%;
+		margin: 0;
+}
+
+#navbarscroll {
+	background: black;
+		color: white;
+		text-align: center;
+		padding: 4px;
+		position: fixed;
+		left: 0; right: 0;
+		top: 0;
+}
+
+.portImage {
+	background-position: center;
+	height: 100%;
+	background-image: url("../images/portfolio.jpg");
+	background-size: cover;
+}
+
+.bottomArrow {
+	position: fixed;
+	bottom: 5px;
+}
+
+.card {
+	opacity: .7;
+	transition: opacity .5s;
+}
+
+.card:hover {
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+.introCopy {
+	padding: 25%;
+	margin: 0 auto;
+}
+
+body.scrolled #navbarscroll {
+	opacity: 0.2;
+	transition: opacity .5s;
+}
+
+body.scrolled #navbarscroll:hover {
+	opacity: 1.0;
+	transition: opacity .5s;
+	}
+
+.homeImage {
+		background-position: center;
+		height: 100%;
+		background-image: url("../images/Home.jpg");
+		background-size: cover;
+}
+
+.featureImage {
+		background-position: center;
+		height: 100%;
+		background-image: url("../images/Home2.jpg");
+		background-size: cover;
+}
+
+/* -- Profile Page --*/
+@media screen and (max-width: 591px) {
+	.logoText {
+		font-size: 20px !important;
+	}
+}
+
+.profileDiv {
+	margin-bottom: 0%;
+	position: relative
+}
+
+.EditElement {
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+
+.ProfileImg {
+	width: 100%;
+	max-width: 200px;
+	min-width: 100px;
+	height: auto;
+	margin-right: 20px;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+}
+
+.modal-footer {
+	margin-top: -60px;
+}
+
+/*-- upload image (temp) --*/
